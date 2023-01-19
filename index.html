@@ -15,13 +15,35 @@
 </head>
 
 <body>
+  <main class="main">
+    <section class="main__actions">
+      <img src="./images/logo.svg" alt="" class="main__actions__logo">
 
-  You’ve used 815 GB of your storage
+      <div class="main__actions__options">
+        <span class="actions__options__item"><img src="./images/icon-document.svg" alt=""></span>
+        <span class="actions__options__item"><img src="./images/icon-folder.svg" alt=""></span>
+        <span class="actions__options__item"><img src="./images/icon-upload.svg" alt=""></span>
+      </div>
+    </section>
 
-  185 GB Left
+    <section class="main__data-storage">
+      <h2 class="main__data-storage__usage">You’ve used <strong>815</strong> GB of your storage</h2>
 
-  0 GB
-  1000 GB
+      <div class="main__data-storage__status">
+        <div class="data-storage__status__progress-bar"></div>
+
+        <div class="data-storage__status__content">
+          <span class="status__content__label">0 GB</span>
+          <span class="status__content__label">1000 GB</span>
+        </div>
+      </div>
+
+      <div class="main__data-storage__size-left">
+        <h2 class="data-storage__size-left__label">185 GB Left</h2>
+      </div>
+
+    </section>
+  </main>
 </body>
 
 </html>
