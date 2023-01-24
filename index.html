@@ -16,35 +16,38 @@
 
 <body>
   <main class="main">
-    <section class="main__actions">
-      <img src="./images/logo.svg" alt="" class="main__actions__logo">
+    <div class="main__container">
 
-      <div class="main__actions__options">
-        <span class="actions__options__item"><img src="./images/icon-document.svg" alt=""></span>
-        <span class="actions__options__item"><img src="./images/icon-folder.svg" alt=""></span>
-        <span class="actions__options__item"><img src="./images/icon-upload.svg" alt=""></span>
-      </div>
-    </section>
+      <section class="main__container__actions">
+        <img src="./images/logo.svg" alt="" class="container__actions__logo">
 
-    <section class="main__data-storage">
-      <h2 class="main__data-storage__usage">You’ve used <strong>815 GB </strong>of your storage</h2>
+        <div class="container__actions__options">
+          <span class="actions__options__item"><img src="./images/icon-document.svg" alt=""></span>
+          <span class="actions__options__item"><img src="./images/icon-folder.svg" alt=""></span>
+          <span class="actions__options__item"><img src="./images/icon-upload.svg" alt=""></span>
+        </div>
+      </section>
 
-      <div class="main__data-storage__status">
-        <div class="data-storage__status__progress-bar">
-          <div class="status__progress-bar__percent"></div>
+      <section class="main__container__data-storage">
+        <h2 class="container__data-storage__usage">You’ve used <strong>815 GB </strong>of your storage</h2>
+
+        <div class="container__data-storage__status">
+          <div class="data-storage__status__progress-bar">
+            <div class="status__progress-bar__percent"></div>
+          </div>
+
+          <div class="data-storage__status__content">
+            <span class="status__content__label">0 GB</span>
+            <span class="status__content__label">1000 GB</span>
+          </div>
         </div>
 
-        <div class="data-storage__status__content">
-          <span class="status__content__label">0 GB</span>
-          <span class="status__content__label">1000 GB</span>
+        <div class="container__data-storage__size-left">
+          <h2 class="data-storage__size-left__label">185 <span class="size-left__label__text">GB Left</span></h2>
         </div>
-      </div>
 
-      <div class="main__data-storage__size-left">
-        <h2 class="data-storage__size-left__label">185 <span class="size-left__label__text">GB Left</span></h2>
-      </div>
-
-    </section>
+      </section>
+    </div>
   </main>
 </body>
 
